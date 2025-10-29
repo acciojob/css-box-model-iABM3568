@@ -1,40 +1,22 @@
-
 /* Your CSS Code here. */
- * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-        /* Body */
-        body {
-            font-family: Arial, sans-serif;
-            padding: 30px;
-            background-color: #f0f0f0;
-        }
+body {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    background-color: #f0f0f0;
+}
 
-         
-        
-    
-        .box {
-            /* 1. WIDTH  */
-            width: 300px;
-            
-            /* 2. BACKGROUND COLOR  */
-            background-color: lightblue;
-            
-            /* 3. BORDER */
-            border: 15px solid blue;
-            
-            /* 4. PADDING - Space INSIDE the box (between text and border)
-                */
-            padding: 50px;
-            
-            /* 5. MARGIN - Space OUTSIDE the box
-                */
-            margin: 20px;
-            
-            /* Make text easier to read */
-            font-size: 16px;
-            line-height: 1.5;
-        }
+.box {
+    width: 300px;
+    background-color: lightblue;
+    border: 15px solid blue;
+    padding: 50px;
+    margin: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+}
